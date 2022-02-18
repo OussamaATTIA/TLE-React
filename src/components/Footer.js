@@ -15,10 +15,10 @@ const Footer = () => {
         <Row>
           <Column>
             <Heading>Contactez-nous</Heading>
-            <FooterLink href="#">Uttar Pradesh</FooterLink>
-            <FooterLink href="#">Ahemdabad</FooterLink>
-            <FooterLink href="#">Indore</FooterLink>
-            <FooterLink href="#">Mumbai</FooterLink>
+            <FooterLink href="#">Bruno CARDOSO LIMA</FooterLink>
+            <FooterLink href="#">Nabil ATTIA</FooterLink>
+            <FooterLink href="#">Abid CHAKHARI</FooterLink>
+            <FooterLink href="#">Moussa ASDOUL</FooterLink>
           </Column>
           <Column>
             <Heading>Réseaux Sociaux</Heading>
