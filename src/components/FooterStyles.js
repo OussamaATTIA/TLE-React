@@ -5,7 +5,6 @@ export const Box = styled.div`
   background: #131d47;
   position: relative;
   bottom: 0;
-
   
    
   @media (max-width: 960px) {
@@ -17,14 +16,15 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 800px;
     /* background: red; */
 `
    
 export const Column = styled.div`
   display: flex;
   flex-direction: column;
-  text-align: center;
+  margin: auto;
+  align-items: left;
 `;
    
 export const Row = styled.div`
@@ -32,17 +32,18 @@ export const Row = styled.div`
   grid-template-columns: repeat(auto-fill, 
                          minmax(185px, 1fr));
   grid-gap: 20px;
+  align-items: center;
    
   @media (max-width: 1000px) {
     grid-template-columns: repeat(auto-fill, 
-                           minmax(200px, 1fr));
+                           minmax(150px, 1fr));
   }
 `;
    
 export const FooterLink = styled.a`
   color: #fff;
   margin-bottom: 0px;
-  font-size: 18px;
+  font-size: 16px;
   text-decoration: none;
    
   &:hover {
